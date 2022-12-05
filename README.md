@@ -102,6 +102,7 @@ MusicBrainz::Release
 ```ruby
 # Class Methods
 MusicBrainz::Release.find(id)
+MusicBrainz::Release.find_by_discid(id)
 
 # Instance Methods
 @release.tracks
